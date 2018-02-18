@@ -183,15 +183,14 @@ Examples:
 Skill Convergence Rules
     Two skills can be converged when all of these are true:
  - Names are the same except the ending number (skill grade).
- - The description, minus the numeric portions, are identical.
+ - The description, minus some minor differences, are identical.
  - The following properties are identical:
    * Type
    * LanchType
    * LanchCondition
    * LanchConditionValue
    * AffectType
-   * SkillCategory
-   * `);
+   * SkillCategory`);
 }
 
 function getSkillPropertyFromUserCommand(command, propertyMustBeConvergeable) {
