@@ -1,27 +1,47 @@
-# LoaTools
+# Tools for Lies of Astaroth (loa-tools)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
+## Developers Guide
 
-## Development server
+### Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This app uses [React](https://reactjs.org/) to build the UI, and 
+[Electron](https://electronjs.org/) to create the standalone desktop version
+of this app.
 
-## Code scaffolding
+To get started building this app, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone this repository using Git.
+2. Install [Node.js](https://nodejs.org). I recommend installing through NVM, 
+   but it's not absolutely required 
+   - For Windows: [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows).
+   - For Mac/Linux: [https://github.com/creationix/nvm](https://github.com/creationix/nvm).
+3. Install [yarn](https://yarnpkg.com) through NPM (Node Package Manager). Some
+   commands assume `yarn` is installed, so install it using:
+   - `npm install -g yarn`
+4. Change to repository directory and run `yarn install`.
+5. Here are some useful commands:
+   - `yarn start`:         starts the server and opens a browser page to the site. 
+   - `yarn electron-dev`:  opens the app in Electron (development mode).
+   - `yarn electron-dist`: produces an Electron executable in the 
+                           `dist` folder.
+   
+   See full list of commands in the commands section.
 
-## Build
+### Commands
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+**Note:** Running commands not listed here but exists in `package.json` may
+          cause flying monkeys to appear and the Moon to come crashing down to 
+          Earth. Please don't run them unless you know what you're doing. 
+          Thank you.
+      
 
-## Running unit tests
+- `yarn start`:         starts the React server and open up a browser page to 
+                        the website. You can also access the page through
+                        `http://localhost:3000`. 
+- `yarn build`:         builds the app in the `build` folder so that it can be
+                        served in an HTTP server.
+- `yarn electron-dev`:  runs the Electron app in development mode.
+- `yarn electron-pack`: generates package directory without packaging it. 
+                        May be used for debugging.
+- `yarn electron-dist`: produces an Electron executable in the `dist` folder.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
