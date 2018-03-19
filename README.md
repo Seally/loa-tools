@@ -35,13 +35,13 @@ To get started building this app, follow these steps:
           Thank you.
       
 
-- `yarn start`:         starts the React server and open up a browser page to 
-                        the website. You can also access the page through
-                        `http://localhost:3000`. 
-- `yarn build`:         builds the app in the `build` folder so that it can be
-                        served in an HTTP server.
-- `yarn electron-dev`:  runs the Electron app in development mode.
-- `yarn electron-pack`: generates package directory without packaging it. 
-                        May be used for debugging.
-- `yarn electron-dist`: produces an Electron executable in the `dist` folder.
-
+- `yarn start`:           starts the React server and open up a browser page to 
+                          the website. You can also access the page through
+                          `http://localhost:3000`. 
+- `yarn build`:           builds the app in the `build` folder so that it can be
+                          served in an HTTP server.
+- `yarn electron-dev`:    runs the Electron app in development mode.
+- `yarn electron-pack`:   generates package directory without packaging it. 
+                          May be used for debugging.
+- `yarn electron-dist`:   produces an Electron executable in the `dist` folder.
+- `yarn update-loa-data`: updates the files in `/public/loa-data` folder.
