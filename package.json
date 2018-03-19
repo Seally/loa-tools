@@ -15,6 +15,7 @@
     "source-map-support": "^0.5.4"
   },
   "devDependencies": {
+    "bluebird": "^3.5.1",
     "concurrently": "^3.5.1",
     "cross-env": "^5.1.4",
     "electron": "^1.8.3",
@@ -22,8 +23,12 @@
     "foreman": "^2.0.0",
     "node-sass": "^4.7.2",
     "node-sass-chokidar": "^1.1.0",
+    "oboe": "^2.1.4",
+    "promise-streams": "^2.1.1",
     "react-app-rewire-css-modules": "codebandits/react-app-rewire-css-modules",
     "react-app-rewired": "^1.5.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
     "sass-loader": "^6.0.7",
     "wait-on": "^2.1.0",
     "webpack": "^4.1.1"
@@ -35,6 +40,7 @@
     "eject": "react-scripts eject",
     "electron-dev": "concurrently --kill-others --kill-others-on-fail --success first \"cross-env BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\"",
     "electron-pack": "electron-builder --dir",
-    "electron-dist": "electron-builder"
+    "electron-dist": "electron-builder",
+    "update-loa-data": "node misc-scripts/update-loa-data.js"
   }
 }

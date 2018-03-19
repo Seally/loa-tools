@@ -4,6 +4,8 @@ src/**/*.css
 # Don't include generated Electron /dist folder.
 /dist
 
+# ---------------------------------------------------------------------------- #
+
 ### React ###
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 

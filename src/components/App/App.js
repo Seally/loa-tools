@@ -1,7 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import logo from './logo.svg';
+import { HashRouter, Route, Link } from 'react-router-dom';
+import logo from '../../logo.svg';
 import './App.scss';
+
+import CardContainer from "../CardContainer/CardContainer";
 
 const Home = () => (
     <div className="App">
@@ -16,9 +18,9 @@ const Home = () => (
 );
 
 const App = () => (
-    <Router>
-        <Home/>
-    </Router>
+    <HashRouter>
+        <CardContainer/>
+    </HashRouter>
 );
 
 export default App;
