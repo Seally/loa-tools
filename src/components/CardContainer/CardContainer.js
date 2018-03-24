@@ -19,27 +19,6 @@ class CardContainer extends React.Component {
     }
 
     componentDidMount() {
-        let http = require('http');
-        let fs = require('fs');
-
-
-        // let tag = document.createElement("script");
-        // tag.src = 'https://loapk3.fingertactic.com/card.php?do=GetAllCard&phpp=FACEBOOK&phpl=EN&pvc=2.0&pvb=2016-09-13 14:52:31&sns=KONGREGATE&origin=';
-        //
-        // document.getElementsByTagName("body")[0].appendChild(tag);
-
-        // $.ajax({
-        //     url: 'https://loapk3.fingertactic.com/card.php?do=GetAllCard&phpp=FACEBOOK&phpl=EN&pvc=2.0&pvb=2016-09-13 14:52:31&sns=KONGREGATE&origin=',
-        //     type: 'GET',
-        //     dataType: 'jsonp',
-        //     success: (data, textStatus, jqXHR) => {
-        //         console.log("Success!");
-        //         this.cards = data.data.Cards;
-        //     },
-        //     error: (jqXHR, textStatus, errorThrown) => {
-        //         console.log("Error thrown: " + textStatus + " " + errorThrown);
-        //     }
-        // });
     }
 
     render() {

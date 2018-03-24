@@ -12,7 +12,8 @@
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
-    "source-map-support": "^0.5.4"
+    "source-map-support": "^0.5.4",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "bluebird": "^3.5.1",
